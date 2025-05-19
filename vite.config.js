@@ -14,6 +14,14 @@ export default defineConfig({
       }
     }
   },
-  plugins: [react()]
+  plugins: [
+    react(),
+    {
+      name: 'html-transform',
+      transformIndexHtml(html) {
+        return html.replace(/src="\./g, 'src="./assets/');
+      }
+    }
+  ]
 })
 
