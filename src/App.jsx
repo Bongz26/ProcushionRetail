@@ -13,7 +13,7 @@ import QuotationPage from './Pages/QuotationPage';
 import AdminDashboard from './Pages/AdminDashboard';
 import AdminLogin from './components/AdminLogin';
 import ProtectedRoute from './components/ProtectedRoute';
-import PaintEstimator from './components/PaintEstimator';
+//import PaintEstimator from './components/PaintEstimator';
 
 
 function App() {
